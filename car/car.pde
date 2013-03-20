@@ -1,12 +1,12 @@
 void setup(){
   size(500,500);
-  background(122,165,232);
 }
 
 int x = 200;
 
 void draw(){
   noStroke();
+  background(122,165,232);
   fill(107,203,140);
   rect(0,305,width,height-305);
   fill(62,62,62);
@@ -18,6 +18,6 @@ void draw(){
   ellipse(x+20,320,20,20);
   ellipse(x+60,320,20,20);
   fill(122,165,232);
-  rect(x+47,288,20,10);
-  rect(x+25,288,20,10);
+  rect(x+47,288,20,10); // window
+  rect(x+25,288,20,10); // window
 }
