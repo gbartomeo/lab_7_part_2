@@ -2,11 +2,11 @@ void setup(){
   size(500,500);
 }
 
-int x = 200;
+int x = 200, speed = 1;
 
 void draw(){
-  noStroke();
   background(122,165,232);
+  noStroke();
   fill(107,203,140);
   rect(0,305,width,height-305);
   fill(62,62,62);
@@ -20,4 +20,5 @@ void draw(){
   fill(122,165,232);
   rect(x+47,288,20,10); // window
   rect(x+25,288,20,10); // window
+  x+=speed;
 }
