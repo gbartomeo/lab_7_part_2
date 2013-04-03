@@ -14,7 +14,7 @@ void draw() {
   rect(0, 305, width, height-305);
   fill(62, 62, 62);
   ellipse(x+30, 320, 75, 20);
-  fill(247, 7, 224);
+  fill(24, 77, 224);
   rect(x, y-20, 80, 20);
   rect(x+10, y-35, 60, 15);
   fill(0, 0, 0);
